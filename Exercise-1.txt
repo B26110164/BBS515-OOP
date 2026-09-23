@@ -1,0 +1,4 @@
+Merhaba, benim adım Can İpek. 1979 yılında Eskişehir'de dünyaya gelmişim. 2002 yılında Boğaziçi Üniversitesi İnşaat Mühendisliği'nden mezun oldum. Hacettepe Üniversitesi Yazılım Mühendisliği Bölümü'nde öğrenim görmekteyim.
+Şu anda bilimsel hazırlık dersleri almaktayım. Daha önce C#,Javascript programlama dili/dilleri ile çalışma deneyimim oldu. Bu ders kapsamında Java programlama dilini öğrenmek, nesne
+yönelimli programlama becerilerimi geliştirmek ve öğrendiklerimi
+uygulamalı projelerde kullanmak istiyorum.
