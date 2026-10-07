@@ -1,0 +1,12 @@
+HIZLI TREN BİLET UYGULAMASI - JAVA KONSOL PROJESİ
+
+Hızlı tren bilet Uygulaması, Hacettepe Üniversitesi Bilişim Enstitüsü bilimsel Hazırlık dersi BBS-515 Nesne Yönelik Programlama dersi bünyesinde dönem sonu projesi olarak Can İpek tarafından hazırlanacaktır.
+Proje, Java konsolunda çalışacaktır. İlk olarak verilen listeden hareket istasyonu kullanıcı tarafından seçtirilecektir. Aynı şekilde Varış istasyonu, yolculuk tarihi, tercihe göre gidiş-dönüş seçeneği seçildiyse, dönüş tarihi ve yolcu sayısı seçilecektir. Yolculuk tarihleri (gidiş, dönüş) o günkü tarihten en fazla 2 hafta sonrasına ait olabilir. Aksi tak-tirde sistem «henüz bilet sistemi devrede değildir» diye bir uyarı mesajı verecektir.
+Yukarıdaki bilgiler girildikten sonra ilgili tarihteki tren seferleri listelenir ve kul-lanıcıdan sefer seçmesi beklenir.
+Gidiş ve dönüş seferleri seçilirken, yolcunun standart, engelli, 65 yaş üstü, 12 yaş altı, TCDD personeli gibi özellikleri kullanıcıya sorulur ve cevaba göre ilgili indirim oranı uygulanır. Yolcu sınıfı abstact bir class şeklinde yazılır ve kişinin kimlik bilgileri tutulur. İndirimli tüm sınıflar ise yolcu abstract sınıfından kalıtımla türetilir ve ilgili indirim oranı özelliği(property) oluşturulur. Standart yolcu için indirim oranı %0’dır.
+Sefer seçildikten sonra, vagon numarası seçilir. Vagonlarda boş koltuk kapasitele-ri belirtilmelidir. Yolcunun bay-bayan özelliğine göre mevcut boş koltuklardan bir ya da birkaçını seçmesi beklenir. Bay yolcular, kendi uygulamalarından gerçekleştirme-dikleri sürece, bayan yanı koltuk tercihi yapamazlar. Seçilen koltuğu iptal edip, başka bir vagondan başka bir koltuk seçebilirler.
+Koltuk seçimi yapıldıktan sonra yolcuların kimlik bilgileri girilir (ad, soyad, TC kimlik no, doğum tarihi). TC kimlik no tam 11 haneden oluşmalı ve birler basamağı çift sayı olmalıdır.
+Kimlik bilgilerinden sonra ödeme menüsüne geçilir. Ödeme eski bir açık bilet ile veya kredi kartı ile yapılmalıdır.
+Ana menüden ayrıca mevcut bir bileti farklı bir tarihe değiştirme, açık bir tarihe alma seçenekleri olacaktır.
+Bilet alım işlemleri en fazla 10 dk sürecektir. Menülerin altında kalan süre değeri kullanıcıya gösterilecektir. 10 dk’dan uzun süren işlemlerde ana menüye dönüş sağla-nacaktır.
+Başarılı denemeler sonunda bilet bilgileri konsola yazdırılacaktır ve json forma-tında saklanacaktır. Kullanıcı kendi kullanıcıadı ve şifresiyle girdiğinde mevcut biletle-ri görüntülenebilip, düzenlenebilecektir.
